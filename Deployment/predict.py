@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load Model Diabetes Early Detection
-with open("src/model_Diabetes_Early_Detection.pkl", "rb") as f:
+with open("Deployment/model_Diabetes_Early_Detection.pkl", "rb") as f:
     model = pickle.load(f)
 
 

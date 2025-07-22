@@ -8,7 +8,7 @@ def eda():
     st.markdown("<h1 style='text-align: center;'>Exploratory Data Analysis (EDA)</h1>", unsafe_allow_html=True)
     st.markdown("<hr>", unsafe_allow_html=True)
     # Load dataset
-    df = pd.read_csv('diabetes_data_upload.csv')
+    df = pd.read_csv('Deployment/diabetes_data_upload.csv')
 
      # Membagi data positif dan negatif
     df_positif = df[df['class'] == 'Positive']

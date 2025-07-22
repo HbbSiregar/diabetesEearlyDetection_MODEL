@@ -12,7 +12,7 @@ def home():
     st.markdown("<h1 style='text-align: center; white-space: nowrap;'>MENDETEKSI DIABETES TAHAP AWAL</h1>", unsafe_allow_html=True)
 
 
-    image_url = 'src/Banner.jpg'
+    image_url = 'Deployment/Banner.jpg'
     gambar = Image.open(image_url)
     st.image(gambar)
 
