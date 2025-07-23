@@ -11,7 +11,7 @@ Link Deployment: [https://earlydiabetesdetect.streamlit.app/](https://earlydiabe
 ---
 
 ## Struktur Repository
-diabetesEarlyDetection_MODEL/
+diabetesEarlyDetection_MODEL/  
 ├── Deployment/  
 │ ├── app.py # Entry point aplikasi Streamlit  
 │ ├── home.py # Tampilan awal halaman  
