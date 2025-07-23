@@ -12,21 +12,21 @@ Link Deployment: [https://earlydiabetesdetect.streamlit.app/](https://earlydiabe
 
 ## Struktur Repository
 diabetesEarlyDetection_MODEL/
-├── Deployment/
-│ ├── app.py # Entry point aplikasi Streamlit
-│ ├── home.py # Tampilan awal halaman
-│ ├── eda.py # Komponen EDA untuk halaman interaktif
-│ ├── predict.py # Prediksi berbasis input gejala
-│ ├── model_Diabetes_Early_Detection.pkl # Model terlatih
-│ ├── diabetes_data_upload.csv # Dataset yang digunakan
-│ ├── requirements.txt # Daftar dependensi
-│ └── Banner.jpg # Banner tampilan aplikasi
-├── diabetes_data_upload.csv # Dataset asli
-├── Diabetes_ED.ipynb # Notebook proses EDA, preprocessing, modeling
-├── Diabetes_ED_Inference.ipynb # Notebook untuk implementasi model terlatih
-├── model_Diabetes_Early_Detection.pkl # Model final (backup)
-├── Deployment Link.text # Link deployment web app
-└── README.md # Dokumentasi proyek ini
+├── Deployment/  
+│ ├── app.py # Entry point aplikasi Streamlit  
+│ ├── home.py # Tampilan awal halaman  
+│ ├── eda.py # Komponen EDA untuk halaman interaktif  
+│ ├── predict.py # Prediksi berbasis input gejala  
+│ ├── model_Diabetes_Early_Detection.pkl # Model terlatih  
+│ ├── diabetes_data_upload.csv # Dataset yang digunakan  
+│ ├── requirements.txt # Daftar dependensi  
+│ └── Banner.jpg # Banner tampilan aplikasi  
+├── diabetes_data_upload.csv # Dataset asli  
+├── Diabetes_ED.ipynb # Notebook proses EDA, preprocessing, modeling  
+├── Diabetes_ED_Inference.ipynb # Notebook untuk implementasi model terlatih  
+├── model_Diabetes_Early_Detection.pkl # Model final (backup)  
+├── Deployment Link.text # Link deployment web app  
+└── README.md # Dokumentasi proyek ini  
 
 ---
 
