@@ -239,7 +239,8 @@ def eda():
         atau ketika gejala masih sangat ringan dan belum mengganggu aktivitas sehari-hari.
 
         Referensi : <a href="https://www.diabetes.org.uk/about-diabetes/symptoms">diabetes.org : diabetes sign and symptoms</a>
-        </div> """, unsafe_allow_html=True)
+        </div> 
+        """, unsafe_allow_html=True)
 
     elif choice == "6. Jumlah orang yang positif diabetes mengalami gejala Polyuria dan Polydipsia":
         st.markdown("## Pasien Positif Diabetes dengan Gejala Polyuria dan Polydipsia")
@@ -269,9 +270,9 @@ def eda():
             padding: 0;
             margin: 0;
             ">
-            Dari bar diagram di atas saya ambil <b>insight</b> bahwa ternyata <b>polyuria dan polydipsia menjadi salah dua gejala yang menandakan pasien positif diabetes.</b><br>
+            Dari bar diagram di atas saya ambil <b>insight</b> bahwa ternyata polyuria dan polydipsia menjadi salah dua gejala yang menandakan pasien positif diabetes.<br>
             Polyuria (sering buang air kecil) dan polydipsia (haus berlebihan) terjadi karena tubuh mencoba mengeluarkan kelebihan glukosa melalui urin, yang menarik cairan dari jaringan.<br>
-            Ini adalah <b>gejala fisiologis paling awal dan khas pada diabetes,</b> maka tidak mengherankan jika grafik menunjukkan dominasi keduanya.<br><br>
+            Ini adalah gejala fisiologis paling awal dan khas pada diabetes, maka tidak mengherankan jika grafik menunjukkan dominasi keduanya.<br><br>
 
             Referensi : <a href="https://my.clevelandclinic.org/health/diseases/21945-diabetic-ketoacidosis-dka?utm" target="_blank" style="color:#1E90FF;">clevelandclinic : ketika orang punya sedikit insulin</a>
         </div>
