@@ -234,8 +234,8 @@ def eda():
             padding: 0;
             margin: 0;
             ">
-        Dari diagram di atas bisa saya simpulkan ternyata ada juga pasien yang **positif diabetes tanpa gejala,** tapi jumlahnya sangat **sedikit sekali.**
-        Ini menunjukkan adanya kasus **asymptomatic diabetes di tahap awal.** Hal ini sering terjadi, terutama pada pasien yang tidak sadar akan faktor risikonya, 
+        Dari diagram di atas bisa saya simpulkan ternyata ada juga pasien yang positif diabetes tanpa gejala, tapi jumlahnya sangat sedikit sekali.
+        Ini menunjukkan adanya kasus asymptomatic diabetes di tahap awal. Hal ini sering terjadi, terutama pada pasien yang tidak sadar akan faktor risikonya, 
         atau ketika gejala masih sangat ringan dan belum mengganggu aktivitas sehari-hari.
 
         Referensi : <a href="https://www.diabetes.org.uk/about-diabetes/symptoms">diabetes.org : diabetes sign and symptoms</a>
