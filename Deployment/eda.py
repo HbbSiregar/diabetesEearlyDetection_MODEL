@@ -93,16 +93,21 @@ def eda():
 
         st.markdown("## Kesimpulan")
         st.markdown("""
-        <div style="text-align: justify;">
+        <div style="
+            text-align: justify;
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            margin: 0;
+            ">
+        Dari diagram di atas bisa diambil kesimpulan bahwa pada diabetes tahap awal, Delayed Healing bukan satu-satunya faktor untuk melihat bahwa pasien positif diabetes.
+        Pada tahap awal, kadar gula darah mungkin belum cukup tinggi untuk memengaruhi regenerasi jaringan secara signifikan.
+        Gejala ini biasanya lebih jelas pada fase diabetes lanjut karena <b>kerusakan kapiler darah dan sistem imun yang melemah.</b>
 
-                Dari diagram di atas bisa diambil kesimpulan bahwa pada diabetes tahap awal, Delayed Healing bukan satu-satunya faktor untuk melihat bahwa pasien positif diabetes.
-                Pada tahap awal, kadar gula darah mungkin belum cukup tinggi untuk memengaruhi regenerasi jaringan secara signifikan.
-                Gejala ini biasanya lebih jelas pada fase diabetes lanjut karena <b>kerusakan kapiler darah dan sistem imun yang melemah.</b>
-
-                Referensi: <a href="https://www.halodoc.com/artikel/ini-alasan-luka-lebih-susah-sembuh-pada-pengidap-diabetes" target="_blank" style="color:#1E90FF;">Halodoc - Ini Alasan Luka Lebih Susah Sembuh pada Pengidap Diabetes</a>
-
+        Referensi: <a href="https://www.halodoc.com/artikel/ini-alasan-luka-lebih-susah-sembuh-pada-pengidap-diabetes" target="_blank" style="color:#1E90FF;">Halodoc - Ini Alasan Luka Lebih Susah Sembuh pada Pengidap Diabetes</a>
         </div>
         """, unsafe_allow_html=True)
+
 
 
     elif choice == "3. Hubungan obesitas dengan positif diabetes":
