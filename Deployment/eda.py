@@ -163,7 +163,6 @@ def eda():
             x='Age',
             y='Delayed_Healing_Numeric',
             trendline="lowess",
-            title='Hubungan Umur dengan Delayed Healing',
             labels={'age': 'Umur', 'Delayed_Healing_Numeric': 'Penyembuhan Lambat (0=No, 1=Yes)'},
             color='class',
             color_discrete_map={'Positive': 'red', 'Negative': 'green'},
