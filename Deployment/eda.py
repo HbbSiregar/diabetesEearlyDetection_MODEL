@@ -55,15 +55,18 @@ def eda():
 
         st.markdown("## Kesimpulan")
         st.markdown("""
-                    1. Rata-rata umur yang positif diabetes ada di 49 dan mediannya di 48
-                    2. Umur minimum yang positif diabetes ada di angka 16 tahun, berarti walaupun rata-rata di umur 48 tahun, diabetes juga bisa muncul di usia muda
-                    3. Umur maksimum penderita diabetes adalah 90 tahun, menunjukkan bahwa pasien lansia juga masih berisiko terkena diabetes tahap awal. Hal ini mendukung pentingnya skrining rutin untuk semua kelompok umur, termasuk lansia  
-                    
-                    Hal ini juga sesuai dengan literatur medis dimana disebutkan bahwa resiko diabetes meningkat seiring bertambahnya usia, terutama jika di atas 40 tahun. 
-                    Namun dari data di atas terlihat fakta bahwa ada pasien dengan usia muda, yaitu 16 tahun. Itu menunjukkan bahwa ada faktor resiko lain (seperti genetik dan pola makan) juga berperan dalam munculnya diabetes di usia muda  
+            <div style="text-align: justify;">
+                    1. Rata-rata umur yang positif diabetes ada di 49 dan mediannya di 48<br>
+                    2. Umur minimum yang positif diabetes ada di angka 16 tahun, berarti walaupun rata-rata di umur 48 tahun, diabetes juga bisa muncul di usia muda<br>
+                    3. Umur maksimum penderita diabetes adalah 90 tahun, menunjukkan bahwa pasien lansia juga masih berisiko terkena diabetes tahap awal. Hal ini mendukung pentingnya skrining rutin untuk semua kelompok umur, termasuk lansia<br><br>
 
-                    Referensi: [CDC - Diabetes Basics](https://www.cdc.gov/diabetes/about/?CDC_AAref_Val=https://www.cdc.gov/diabetes/basics/diabetes.html)
-        """)
+            Hal ini juga sesuai dengan literatur medis dimana disebutkan bahwa resiko diabetes meningkat seiring bertambahnya usia, terutama jika di atas 40 tahun. 
+            Namun dari data di atas terlihat fakta bahwa ada pasien dengan usia muda, yaitu 16 tahun. Itu menunjukkan bahwa ada faktor resiko lain (seperti genetik dan pola makan) juga berperan dalam munculnya diabetes di usia muda<br><br>
+
+            Referensi: <a href="https://www.cdc.gov/diabetes/about/?CDC_AAref_Val=https://www.cdc.gov/diabetes/basics/diabetes.html" target="_blank">CDC - Diabetes Basics</a>
+            </div>
+""", unsafe_allow_html=True)
+
 
     elif choice == "2. Pengaruh pasien yang positif diabetes dengan penyembuhan luka yang lambat":
         st.markdown("## Pengaruh Diabetes terhadap Penyembuhan Luka")
