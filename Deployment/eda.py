@@ -83,23 +83,27 @@ def eda():
                 template='plotly_white' 
         )
         fig.update_layout(
-            font_size=14,        # Ukuran font yang nyaman dibaca
-            margin=dict(l=80, r=80, t=100, b=120),  # Margin yang cukup agar tidak terpotong
-            showlegend=False,    # Sembunyikan legenda karena warna sudah jelas
-            height=700,          # Tinggi grafik yang pas
-            width=600            # Lebar grafik yang pas
+            font_size=14,        
+            margin=dict(l=80, r=80, t=100, b=120), 
+            showlegend=False,    
+            height=700,          
+            width=600            
         )
         st.plotly_chart(fig)
 
         st.markdown("## Kesimpulan")
         st.markdown("""
-            <div style="text-align: justify;>
-            Dari diagram di atas bisa diambil kesimpulan bahwa pada diabetes tahap awal, Delayed Healing bukan satu-satunya faktor untuk melihat bahwa pasien positif diabetes.
-            Pada tahap awal, kadar gula darah mungkin belum cukup tinggi untuk memengaruhi regenerasi jaringan secara signifikan.
-            Gejala ini biasanya lebih jelas pada fase diabetes lanjut karena kerusakan kapiler darah dan sistem imun yang melemah.
+        <div style="text-align: justify;">
 
-            Referensi: [Halodoc - Ini Alasan Luka Lebih Susah Sembuh pada Pengidap Diabetes](https://www.halodoc.com/artikel/ini-alasan-luka-lebih-susah-sembuh-pada-pengidap-diabetes)
-            </div>""")
+                Dari diagram di atas bisa diambil kesimpulan bahwa pada diabetes tahap awal, Delayed Healing bukan satu-satunya faktor untuk melihat bahwa pasien positif diabetes.
+                Pada tahap awal, kadar gula darah mungkin belum cukup tinggi untuk memengaruhi regenerasi jaringan secara signifikan.
+                Gejala ini biasanya lebih jelas pada fase diabetes lanjut karena <b>kerusakan kapiler darah dan sistem imun yang melemah.</b>
+
+                Referensi: <a href="https://www.halodoc.com/artikel/ini-alasan-luka-lebih-susah-sembuh-pada-pengidap-diabetes" target="_blank" style="color:#1E90FF;">Halodoc - Ini Alasan Luka Lebih Susah Sembuh pada Pengidap Diabetes</a>
+
+        </div>
+        """, unsafe_allow_html=True)
+
 
     elif choice == "3. Hubungan obesitas dengan positif diabetes":
         st.markdown("## Hubungan Obesitas dengan Diabetes")
