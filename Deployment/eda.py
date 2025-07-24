@@ -139,10 +139,19 @@ def eda():
         st.plotly_chart(fig)
         st.markdown("## Kesimpulan")
         st.markdown("""
-          Tidak selalu orang yang obesitas akan terdeteksi positif diabetes tahap awal. Walaupun obesitas adalah faktor risiko diabetes tipe 2, tidak semua penderita diabetes tahap awal adalah obesitas. Hal ini dapat disebabkan oleh faktor keturunan, resistensi insulin, atau gaya hidup lain yang berisiko, bahkan pada individu dengan berat badan normal juga bisa terindikasi diabetes.  
+        <div style="
+            text-align: justify;
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            margin: 0;
+            ">
+        Tidak selalu orang yang obesitas akan terdeteksi positif diabetes tahap awal. Walaupun obesitas adalah faktor risiko diabetes tipe 2, tidak semua penderita diabetes tahap awal adalah obesitas. 
+        Hal ini dapat disebabkan oleh faktor keturunan, resistensi insulin, atau gaya hidup lain yang berisiko, bahkan pada individu dengan berat badan normal juga bisa terindikasi diabetes.</b>
 
-Referensi : [aido.id - obesitas menjadi faktor pemicu diabetes](https://aido.id/health-articles/obesitas-menjadi-faktor-pemicu-penyakit-diabetes/detail)
-        """)
+        Referensi : <a href="https://aido.id/health-articles/obesitas-menjadi-faktor-pemicu-penyakit-diabetes/detail" target="_blank" style="color:#1E90FF;">aido.id - obesitas menjadi faktor pemicu diabetes</a>
+        </div>
+        """, unsafe_allow_html=True)
        
 
     elif choice == "4. Pengaruh umur terhadap penyembuhan luka":
