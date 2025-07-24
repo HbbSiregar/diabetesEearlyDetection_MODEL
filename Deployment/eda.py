@@ -102,7 +102,7 @@ def eda():
             ">
         Dari diagram di atas bisa diambil kesimpulan bahwa pada diabetes tahap awal, Delayed Healing bukan satu-satunya faktor untuk melihat bahwa pasien positif diabetes.
         Pada tahap awal, kadar gula darah mungkin belum cukup tinggi untuk memengaruhi regenerasi jaringan secara signifikan.
-        Gejala ini biasanya lebih jelas pada fase diabetes lanjut karena <b>kerusakan kapiler darah dan sistem imun yang melemah.</b>
+        Gejala ini biasanya lebih jelas pada fase diabetes lanjut karena kerusakan kapiler darah dan sistem imun yang melemah.<br><br>
 
         Referensi: <a href="https://www.halodoc.com/artikel/ini-alasan-luka-lebih-susah-sembuh-pada-pengidap-diabetes" target="_blank" style="color:#1E90FF;">Halodoc - Ini Alasan Luka Lebih Susah Sembuh pada Pengidap Diabetes</a>
         </div>
@@ -147,7 +147,7 @@ def eda():
             margin: 0;
             ">
         Tidak selalu orang yang obesitas akan terdeteksi positif diabetes tahap awal. Walaupun obesitas adalah faktor risiko diabetes tipe dua, tidak semua penderita diabetes tahap awal adalah obesitas. 
-        Hal ini dapat disebabkan oleh faktor keturunan, resistensi insulin, atau gaya hidup lain yang berisiko, bahkan pada individu dengan berat badan normal juga bisa terindikasi diabetes.</b>
+        Hal ini dapat disebabkan oleh faktor keturunan, resistensi insulin, atau gaya hidup lain yang berisiko, bahkan pada individu dengan berat badan normal juga bisa terindikasi diabetes.<br><br>
 
         Referensi : <a href="https://aido.id/health-articles/obesitas-menjadi-faktor-pemicu-penyakit-diabetes/detail" target="_blank" style="color:#1E90FF;">aido.id - obesitas menjadi faktor pemicu diabetes</a>
         </div>
@@ -189,7 +189,7 @@ def eda():
         Dari line plot di atas juga menguatkan ada hubungan linear antara umur dan delay healing. Semakin bertambahnya usia (sumbu x) semakin beresiko mengalami delay healing (sumbu y). 
         Itu terlihat dari line yang terus meningkat perlahan sejalan dengan umur pasien yang bertambah. Maka wajar jika pasien lansia lebih rentan mengalami luka yang lambat sembuh, tidak hanya karena diabetes. 
         Berdasarkan hasil dari Cohen's d, kekuatan hubungannya sedang, jadi ada faktor lain yang mempengaruhi delay healing selain umur. 
-        Maka dari itu bisa jadi kesimpulan juga bukan hanya positif diabetes yang menyebabkan penyembuhan luka lambat, tapi umur juga berpengaruh.
+        Maka dari itu bisa jadi kesimpulan juga bukan hanya positif diabetes yang menyebabkan penyembuhan luka lambat, tapi umur juga berpengaruh.<br><br>
         
         Referensi : <a href="https://kumparan.com/kumparanmom/massa-otot-menyusut-sejak-usia-30-tahun-yuk-perhatikan-ini-moms-23F2kz3V66p">kumparanmom : masa otot menurun sejak usia 30 an</a>
         </div>
@@ -236,7 +236,7 @@ def eda():
             ">
         Dari diagram di atas bisa saya simpulkan ternyata ada juga pasien yang positif diabetes tanpa gejala, tapi jumlahnya sangat sedikit sekali.
         Ini menunjukkan adanya kasus asymptomatic diabetes di tahap awal. Hal ini sering terjadi, terutama pada pasien yang tidak sadar akan faktor risikonya, 
-        atau ketika gejala masih sangat ringan dan belum mengganggu aktivitas sehari-hari.
+        atau ketika gejala masih sangat ringan dan belum mengganggu aktivitas sehari-hari.<br><br>
 
         Referensi : <a href="https://www.diabetes.org.uk/about-diabetes/symptoms">diabetes.org : diabetes sign and symptoms</a>
         </div> 
@@ -256,7 +256,6 @@ def eda():
             y=[polyuria_polydipsia_count, total_positif - polyuria_polydipsia_count],
             color=['Polyuria & Polydipsia', 'Lainnya'],
             color_discrete_map={'Polyuria & Polydipsia': 'red', 'Lainnya': 'lightgreen'},
-            title='Pasien dengan Polyuria dan Polydipsia',
             labels={'x': 'Kategori', 'y': 'Jumlah Pasien'}
         )
         st.plotly_chart(fig)
@@ -288,7 +287,6 @@ def eda():
             y=frekuensi_gejala.values,
             color=frekuensi_gejala.values,
             color_continuous_scale='Reds',
-            title='Frekuensi Gejala pada Pasien Positif Diabetes',
             labels={'x': 'Gejala', 'y': 'Jumlah Pasien dengan Gejala'}
         )
         fig.update_layout(xaxis_tickangle=45)
@@ -296,21 +294,21 @@ def eda():
 
         st.markdown("## Kesimpulan")
         st.markdown("""
-        5 gejala yang paling tinggi atau sering muncul pada pasien positif diabetes
-                    
-        1. polyuria (kondisi sering buang air kecil) = 243 pasien
-        2. polydipsia (rasa haus yang berlebihan) =  225 pasien
-        3. weakness (kondisi fisik yang melemah) = 218 pasien
-        4. partial paresis (melemah atau lumpuhnya otot) = 192 pasien 
-        5. polypaghia (rasa lapar atau nafsu makan yang berlebihan) = 189 pasien
-                    
-        Gejala-gejala tersebut adalah hasil dari tubuh yang **tidak dapat menggunakan glukosa dengan efektif**, sehingga energi menurun, otot lemas (paresis), dan tubuh merespons dengan makan/minum lebih banyak.  
-Ini adalah rantai gejala biologis yang muncul sejak awal diabetes.  
+            <div style="text-align: justify; background-color: transparent; border: none; padding: 0; margin: 0;">
+            5 gejala yang paling tinggi atau sering muncul pada pasien positif diabetes<br><br>
+            1. polyuria (kondisi sering buang air kecil) = 243 pasien<br>
+            2. polydipsia (rasa haus yang berlebihan) =  225 pasien<br>
+            3. weakness (kondisi fisik yang melemah) = 218 pasien<br>
+            4. partial paresis (melemah atau lumpuhnya otot) = 192 pasien<br>
+            5. polypaghia (rasa lapar atau nafsu makan yang berlebihan) = 189 pasien<br><br>
 
-Referensi : [health.grid.id : tanda awal terkena diabetes yang sering diabaikan](https://health.grid.id/read/353596036/inilah-polifagia-tanda-awal-diabetes-tipe-2-yang-sering-terabaikan?page=all)
+            Gejala-gejala tersebut adalah hasil dari tubuh yang <b>tidak dapat menggunakan glukosa dengan efektif</b>, sehingga energi menurun, otot lemas (paresis), dan tubuh merespons dengan makan/minum lebih banyak.  
+            Ini adalah rantai gejala biologis yang muncul sejak awal diabetes.<br><br>
 
-           
-        """)    
+            Referensi : <a href="https://health.grid.id/read/353596036/inilah-polifagia-tanda-awal-diabetes-tipe-2-yang-sering-terabaikan?page=all" target="_blank" style="color:#1E90FF;">health.grid.id : tanda awal terkena diabetes yang sering diabaikan</a>
+            </div>
+            """, unsafe_allow_html=True)
+
         
 if __name__ == '__main__':
     eda()
