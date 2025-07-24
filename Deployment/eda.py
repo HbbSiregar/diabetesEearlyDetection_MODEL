@@ -93,7 +93,7 @@ def eda():
 
         st.markdown("## Kesimpulan")
         st.markdown("""
-            <div style="text-align: justify;">
+            <div style="text-align: justify;>
             Dari diagram di atas bisa diambil kesimpulan bahwa pada diabetes tahap awal, Delayed Healing bukan satu-satunya faktor untuk melihat bahwa pasien positif diabetes.
             Pada tahap awal, kadar gula darah mungkin belum cukup tinggi untuk memengaruhi regenerasi jaringan secara signifikan.
             Gejala ini biasanya lebih jelas pada fase diabetes lanjut karena kerusakan kapiler darah dan sistem imun yang melemah.
