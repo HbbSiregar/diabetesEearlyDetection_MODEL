@@ -146,7 +146,7 @@ def eda():
             padding: 0;
             margin: 0;
             ">
-        Tidak selalu orang yang obesitas akan terdeteksi positif diabetes tahap awal. Walaupun obesitas adalah faktor risiko diabetes tipe 2, tidak semua penderita diabetes tahap awal adalah obesitas. 
+        Tidak selalu orang yang obesitas akan terdeteksi positif diabetes tahap awal. Walaupun obesitas adalah faktor risiko diabetes tipe dua, tidak semua penderita diabetes tahap awal adalah obesitas. 
         Hal ini dapat disebabkan oleh faktor keturunan, resistensi insulin, atau gaya hidup lain yang berisiko, bahkan pada individu dengan berat badan normal juga bisa terindikasi diabetes.</b>
 
         Referensi : <a href="https://aido.id/health-articles/obesitas-menjadi-faktor-pemicu-penyakit-diabetes/detail" target="_blank" style="color:#1E90FF;">aido.id - obesitas menjadi faktor pemicu diabetes</a>
@@ -180,10 +180,21 @@ def eda():
 
         st.markdown("## Kesimpulan")
         st.markdown("""
-          Dari line plot di atas juga menguatkan ada **hubungan linear antara umur dan delay healing.** Semakin bertambahnya usia (sumbu x) semakin beresiko mengalami delay healing (sumbu y). Itu terlihat dari line yang terus meningkat perlahan sejalan dengan umur pasien yang bertambah. Maka wajar jika pasien lansia lebih rentan mengalami luka yang lambat sembuh, tidak hanya karena diabetes. Berdasarkan hasil dari **Cohen's d, kekuatan hubungannya sedang**, jadi ada faktor lain yang mempengaruhi delay healing selain umur. Maka dari itu bisa jadi kesimpulan juga **bukan hanya positif diabetes yang menyebabkan penyembuhan luka lambat, tapi umur juga berpengaruh.**
-
-Referensi : [kumparanmom : masa otot menurun sejak usia 30 an](https://kumparan.com/kumparanmom/massa-otot-menyusut-sejak-usia-30-tahun-yuk-perhatikan-ini-moms-23F2kz3V66p)
-        """)
+        <div style="
+            text-align: justify;
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            margin: 0;
+            ">
+        Dari line plot di atas juga menguatkan ada hubungan linear antara umur dan delay healing. Semakin bertambahnya usia (sumbu x) semakin beresiko mengalami delay healing (sumbu y). 
+        Itu terlihat dari line yang terus meningkat perlahan sejalan dengan umur pasien yang bertambah. Maka wajar jika pasien lansia lebih rentan mengalami luka yang lambat sembuh, tidak hanya karena diabetes. 
+        Berdasarkan hasil dari Cohen's d, kekuatan hubungannya sedang, jadi ada faktor lain yang mempengaruhi delay healing selain umur. 
+        Maka dari itu bisa jadi kesimpulan juga bukan hanya positif diabetes yang menyebabkan penyembuhan luka lambat, tapi umur juga berpengaruh.
+        
+        Referensi : <a href="https://kumparan.com/kumparanmom/massa-otot-menyusut-sejak-usia-30-tahun-yuk-perhatikan-ini-moms-23F2kz3V66p">kumparanmom : masa otot menurun sejak usia 30 an</a>
+        </div>
+        """, unsafe_allow_html=True)
 
     elif choice == "5. Melihat Orang yang positif diabetes tapi tanpa gejala":
         st.markdown("## Pasien Positif Diabetes Tanpa Gejala")
