@@ -55,15 +55,15 @@ def eda():
 
         st.markdown("## Kesimpulan")
         st.markdown("""
-       1. Rata-rata umur yang positif diabetes ada di 49 dan mediannya di 48   
-       2. Umur minimum yang positif diabetes ada di angka 16 tahun**, berarti walaupun rata-rata di umur 48 tahun, diabetes juga bisa muncul di usia muda  
+                    1. Rata-rata umur yang positif diabetes ada di 49 dan mediannya di 48
+                    2. Umur minimum yang positif diabetes ada di angka 16 tahun**, berarti walaupun rata-rata di umur 48 tahun, diabetes juga bisa muncul di usia muda  
        3. Umur maksimum penderita diabetes adalah 90 tahun, menunjukkan bahwa pasien lansia juga masih berisiko terkena diabetes tahap awal  
           Hal ini mendukung pentingnya skrining rutin untuk semua kelompok umur, termasuk lansia  
 
         Hal ini sesuai dengan literatur medis dimana disebutkan bahwa resiko diabetes meningkat seiring bertambahnya usia, terutama jika di atas 40 tahun  
         Namun dari data di atas terlihat fakta bahwa ada pasien dengan usia muda, yaitu 16 tahun. Itu menunjukkan bahwa ada faktor resiko lain (seperti genetik dan pola makan) juga berperan dalam munculnya diabetes di usia muda  
 
-    Referensi: [CDC - Diabetes Basics](https://www.cdc.gov/diabetes/about/?CDC_AAref_Val=https://www.cdc.gov/diabetes/basics/diabetes.html)
+        Referensi: [CDC - Diabetes Basics](https://www.cdc.gov/diabetes/about/?CDC_AAref_Val=https://www.cdc.gov/diabetes/basics/diabetes.html)
         """)
 
     elif choice == "2. Pengaruh pasien yang positif diabetes dengan penyembuhan luka yang lambat":
@@ -91,7 +91,11 @@ def eda():
 
         st.markdown("## Kesimpulan")
         st.markdown("""
-        Delayed Healing bukan satu-satu faktor untuk melihat bahwa pasien positif diabetes
+        Dari diagram di atas bisa diambil kesimpulan bahwa pada diabetes tahap awal, **Delayed Healing bukan satu-satunya faktor untuk melihat bahwa pasien positif diabetes.**  
+Pada tahap awal, **kadar gula darah mungkin belum cukup tinggi untuk memengaruhi regenerasi jaringan secara signifikan.**  
+Gejala ini biasanya lebih jelas pada fase diabetes lanjut karena **kerusakan kapiler darah dan sistem imun yang melemah.**
+
+Referensi: [Halodoc - Ini Alasan Luka Lebih Susah Sembuh pada Pengidap Diabetes](https://www.halodoc.com/artikel/ini-alasan-luka-lebih-susah-sembuh-pada-pengidap-diabetes)
         """)
 
     elif choice == "3. Hubungan obesitas dengan positif diabetes":
@@ -123,7 +127,9 @@ def eda():
         st.plotly_chart(fig)
         st.markdown("## Kesimpulan")
         st.markdown("""
-          Tidak selalu orang yang obesitas akan terdeteksi positif diabetes tahap awal.
+          Tidak selalu orang yang obesitas akan terdeteksi positif diabetes tahap awal. Walaupun obesitas adalah faktor risiko diabetes tipe 2, tidak semua penderita diabetes tahap awal adalah obesitas. Hal ini dapat disebabkan oleh faktor keturunan, resistensi insulin, atau gaya hidup lain yang berisiko, bahkan pada individu dengan berat badan normal juga bisa terindikasi diabetes.  
+
+Referensi : [aido.id - obesitas menjadi faktor pemicu diabetes](https://aido.id/health-articles/obesitas-menjadi-faktor-pemicu-penyakit-diabetes/detail)
         """)
        
 
@@ -153,7 +159,9 @@ def eda():
 
         st.markdown("## Kesimpulan")
         st.markdown("""
-          Semakin tua umur semakin beresiko penyembuhan lukanya melambat, jadi belum tentu yang penyembuhan lukanya melambat terindikasi diabetes.
+          Dari line plot di atas juga menguatkan ada **hubungan linear antara umur dan delay healing.** Semakin bertambahnya usia (sumbu x) semakin beresiko mengalami delay healing (sumbu y). Itu terlihat dari line yang terus meningkat perlahan sejalan dengan umur pasien yang bertambah. Maka wajar jika pasien lansia lebih rentan mengalami luka yang lambat sembuh, tidak hanya karena diabetes. Berdasarkan hasil dari **Cohen's d, kekuatan hubungannya sedang**, jadi ada faktor lain yang mempengaruhi delay healing selain umur. Maka dari itu bisa jadi kesimpulan juga **bukan hanya positif diabetes yang menyebabkan penyembuhan luka lambat, tapi umur juga berpengaruh.**
+
+Referensi : [kumparanmom : masa otot menurun sejak usia 30 an](https://kumparan.com/kumparanmom/massa-otot-menyusut-sejak-usia-30-tahun-yuk-perhatikan-ini-moms-23F2kz3V66p)
         """)
 
     elif choice == "5. Melihat Orang yang positif diabetes tapi tanpa gejala":
@@ -188,7 +196,9 @@ def eda():
 
         st.markdown("## Kesimpulan")
         st.markdown("""
-          Ada juga pasien yang positif diabetes tapi tanpa gejala, walaupun jumlahnya sedikit
+          Dari diagram di atas bisa saya simpulkan ternyata ada juga pasien yang **positif diabetes tanpa gejala,** tapi jumlahnya sangat **sedikit sekali.** Ini menunjukkan adanya kasus **asymptomatic diabetes di tahap awal.** Hal ini sering terjadi, terutama pada pasien yang tidak sadar akan faktor risikonya, atau ketika gejala masih sangat ringan dan belum mengganggu aktivitas sehari-hari.
+
+Referensi : [diabetes.org : diabetes sign and symptoms](https://www.diabetes.org.uk/about-diabetes/symptoms)
         """)
 
     elif choice == "6. Jumlah orang yang positif diabetes mengalami gejala Polyuria dan Polydipsia":
@@ -212,7 +222,11 @@ def eda():
 
         st.markdown("## Kesimpulan")
         st.markdown("""
-          Poyuria dan Polydipsia menjadi salah dua gejala yang menandakan pasien positif diabetes
+          Dari bar diagram di atas saya ambil **insight** bahwa ternyata **polyuria dan polydipsia menjadi salah dua gejala yang menandakan pasien positif diabetes.**  
+Polyuria (sering buang air kecil) dan polydipsia (haus berlebihan) terjadi karena tubuh mencoba mengeluarkan kelebihan glukosa melalui urin, yang menarik cairan dari jaringan.  
+Ini adalah **gejala fisiologis paling awal dan khas pada diabetes,** maka tidak mengherankan jika grafik menunjukkan dominasi keduanya.
+
+Referensi : [clevelandclinic : ketika orang punya sedikit insulin](https://my.clevelandclinic.org/health/diseases/21945-diabetic-ketoacidosis-dka?utm
         """)
 
     elif choice == "7. Gejala yang paling sering ditemui saat terindikasi positif diabetes":
@@ -247,7 +261,10 @@ def eda():
         4. partial paresis (melemah atau lumpuhnya otot) = 192 pasien 
         5. polypaghia (rasa lapar atau nafsu makan yang berlebihan) = 189 pasien
                     
-        Gejala obesitas menjadi gejala yang paling rendah bagi orang yang positif diabetes
+        Gejala-gejala tersebut adalah hasil dari tubuh yang **tidak dapat menggunakan glukosa dengan efektif**, sehingga energi menurun, otot lemas (paresis), dan tubuh merespons dengan makan/minum lebih banyak.  
+Ini adalah rantai gejala biologis yang muncul sejak awal diabetes.  
+
+Referensi : [health.grid.id : tanda awal terkena diabetes yang sering diabaikan](https://health.grid.id/read/353596036/inilah-polifagia-tanda-awal-diabetes-tipe-2-yang-sering-terabaikan?page=all)
 
            
         """)    
