@@ -56,31 +56,36 @@ def eda():
         st.markdown("## Kesimpulan")
         st.markdown("""
             <style>
-            .justify-text {
+            ol.custom-list {
+                counter-reset: item;
+                padding-left: 1.5em;
+                margin-left: 0;
                 text-align: justify;
-                padding-left: 20px;    /* Membuat jarak kiri keseluruhan */
             }
-            .justify-text ol {
-                padding-left: 20px;   /* Jarak kiri list */
+            ol.custom-list li {
+                margin-bottom: 1em;
+                padding-left: 0.5em;
+                text-indent: -0.5em;
             }
-            .justify-text ol li {
-                margin-bottom: 10px;   /* Jarak bawah antar list item */
-                text-indent: -20px;    /* Menggeser posisi teks pertama ke kiri */
+            ol.custom-list li::marker {
+                font-weight: bold;
+                color: #ccc;
             }
             </style>
 
-            <div class="justify-text">
-            <ol>
+            <ol class="custom-list">
             <li>Rata-rata umur yang positif diabetes ada di 49 dan mediannya di 48</li>
             <li>Umur minimum yang positif diabetes ada di angka 16 tahun, berarti walaupun rata-rata di umur 48 tahun, diabetes juga bisa muncul di usia muda</li>
             <li>Umur maksimum penderita diabetes adalah 90 tahun, menunjukkan bahwa pasien lansia juga masih berisiko terkena diabetes tahap awal. Hal ini mendukung pentingnya skrining rutin untuk semua kelompok umur, termasuk lansia</li>
             </ol>
 
-            <p>Hal ini juga sesuai dengan literatur medis dimana disebutkan bahwa resiko diabetes meningkat seiring bertambahnya usia, terutama jika di atas 40 tahun. 
-            Namun dari data di atas terlihat fakta bahwa ada pasien dengan usia muda, yaitu 16 tahun. Itu menunjukkan bahwa ada faktor resiko lain (seperti genetik dan pola makan) juga berperan dalam munculnya diabetes di usia muda</p>
+            <p style="text-align: justify;">
+            Hal ini juga sesuai dengan literatur medis dimana disebutkan bahwa resiko diabetes meningkat seiring bertambahnya usia, terutama jika di atas 40 tahun. Namun dari data di atas terlihat fakta bahwa ada pasien dengan usia muda, yaitu 16 tahun. Itu menunjukkan bahwa ada faktor resiko lain (seperti genetik dan pola makan) juga berperan dalam munculnya diabetes di usia muda
+            </p>
 
-            <p>Referensi: <a href="https://www.cdc.gov/diabetes/about/?CDC_AAref_Val=https://www.cdc.gov/diabetes/basics/diabetes.html" target="_blank">CDC - Diabetes Basics</a></p>
-            </div>
+            <p style="text-align: justify;">
+            Referensi: <a href="https://www.cdc.gov/diabetes/about/?CDC_AAref_Val=https://www.cdc.gov/diabetes/basics/diabetes.html" target="_blank">CDC - Diabetes Basics</a>
+            </p>
             """, unsafe_allow_html=True)
 
     elif choice == "2. Pengaruh pasien yang positif diabetes dengan penyembuhan luka yang lambat":
