@@ -263,18 +263,20 @@ def eda():
         st.markdown("## Kesimpulan")
         st.markdown("""
         <div style="
-        text-align: justify;
-        background-color: transparent;
-        border: none;
-        padding: 0;
-        margin: 0;
-        ">
-          Dari bar diagram di atas saya ambil **insight** bahwa ternyata **polyuria dan polydipsia menjadi salah dua gejala yang menandakan pasien positif diabetes.**  
-Polyuria (sering buang air kecil) dan polydipsia (haus berlebihan) terjadi karena tubuh mencoba mengeluarkan kelebihan glukosa melalui urin, yang menarik cairan dari jaringan.  
-Ini adalah **gejala fisiologis paling awal dan khas pada diabetes,** maka tidak mengherankan jika grafik menunjukkan dominasi keduanya.
-        
-        Referensi : <a href="https://my.clevelandclinic.org/health/diseases/21945-diabetic-ketoacidosis-dka?utm">clevelandclinic : ketika orang punya sedikit insulin</a>
-        </div> """, unsafe_allow_html=True)
+            text-align: justify;
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            margin: 0;
+            ">
+            Dari bar diagram di atas saya ambil <b>insight</b> bahwa ternyata <b>polyuria dan polydipsia menjadi salah dua gejala yang menandakan pasien positif diabetes.</b><br>
+            Polyuria (sering buang air kecil) dan polydipsia (haus berlebihan) terjadi karena tubuh mencoba mengeluarkan kelebihan glukosa melalui urin, yang menarik cairan dari jaringan.<br>
+            Ini adalah <b>gejala fisiologis paling awal dan khas pada diabetes,</b> maka tidak mengherankan jika grafik menunjukkan dominasi keduanya.<br><br>
+
+            Referensi : <a href="https://my.clevelandclinic.org/health/diseases/21945-diabetic-ketoacidosis-dka?utm" target="_blank" style="color:#1E90FF;">clevelandclinic : ketika orang punya sedikit insulin</a>
+        </div>
+        """, unsafe_allow_html=True)
+
 
     elif choice == "7. Gejala yang paling sering ditemui saat terindikasi positif diabetes":
         st.markdown("## Frekuensi Gejala pada Pasien Positif Diabetes")
