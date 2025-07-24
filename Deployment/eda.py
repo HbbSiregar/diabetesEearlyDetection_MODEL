@@ -302,8 +302,7 @@ def eda():
             4. partial paresis (melemah atau lumpuhnya otot) = 192 pasien<br>
             5. polypaghia (rasa lapar atau nafsu makan yang berlebihan) = 189 pasien<br><br>
 
-            Gejala-gejala tersebut adalah hasil dari tubuh yang <b>tidak dapat menggunakan glukosa dengan efektif</b>, sehingga energi menurun, otot lemas (paresis), dan tubuh merespons dengan makan/minum lebih banyak.  
-            Ini adalah rantai gejala biologis yang muncul sejak awal diabetes.<br><br>
+            Gejala-gejala tersebut adalah hasil dari tubuh yang tidak dapat menggunakan glukosa dengan efektif, sehingga energi menurun, otot lemas (paresis), dan tubuh merespons dengan makan/minum lebih banyak. Ini adalah rantai gejala biologis yang muncul sejak awal diabetes.<br><br>
 
             Referensi : <a href="https://health.grid.id/read/353596036/inilah-polifagia-tanda-awal-diabetes-tipe-2-yang-sering-terabaikan?page=all" target="_blank" style="color:#1E90FF;">health.grid.id : tanda awal terkena diabetes yang sering diabaikan</a>
             </div>
