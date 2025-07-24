@@ -97,10 +97,11 @@ def eda():
         st.markdown("""
                     <div style="text-align: justify;">
                             Dari diagram di atas bisa diambil kesimpulan bahwa pada diabetes tahap awal, Delayed Healing bukan satu-satunya faktor untuk melihat bahwa pasien positif diabetes.
-                            Pada tahap awal, **kadar gula darah mungkin belum cukup tinggi untuk memengaruhi regenerasi jaringan secara signifikan.
+                            Pada tahap awal, kadar gula darah mungkin belum cukup tinggi untuk memengaruhi regenerasi jaringan secara signifikan.
                             Gejala ini biasanya lebih jelas pada fase diabetes lanjut karena **kerusakan kapiler darah dan sistem imun yang melemah.
 
-                            Referensi: [Halodoc - Ini Alasan Luka Lebih Susah Sembuh pada Pengidap Diabetes](https://www.halodoc.com/artikel/ini-alasan-luka-lebih-susah-sembuh-pada-pengidap-diabetes)</a>
+                            Referensi: 
+                            [Halodoc - Ini Alasan Luka Lebih Susah Sembuh pada Pengidap Diabetes](https://www.halodoc.com/artikel/ini-alasan-luka-lebih-susah-sembuh-pada-pengidap-diabetes)</a>
                     </div>
                     """, unsafe_allow_html=True)
 
