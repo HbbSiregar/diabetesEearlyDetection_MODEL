@@ -55,19 +55,19 @@ def eda():
 
         st.markdown("## Kesimpulan")
         st.markdown("""
-            <div style="text-align: justify;">
-                    1. Rata-rata umur yang positif diabetes ada di 49 dan mediannya di 48<br>
-                    2. Umur minimum yang positif diabetes ada di angka 16 tahun, berarti walaupun rata-rata di umur 48 
-                    tahun, diabetes juga bisa muncul di usia muda
-                    3. Umur maksimum penderita diabetes adalah 90 tahun, menunjukkan bahwa pasien lansia juga 
-                    masih berisiko terkena diabetes tahap awal. Hal ini mendukung pentingnya skrining rutin untuk semua kelompok umur, termasuk lansia
+                    <div style="text-align: justify;">
+                            1. Rata-rata umur yang positif diabetes ada di 49 dan mediannya di 48<br>
+                            2. Umur minimum yang positif diabetes ada di angka 16 tahun, berarti walaupun rata-rata di umur 48 
+                            tahun, diabetes juga bisa muncul di usia muda
+                            3. Umur maksimum penderita diabetes adalah 90 tahun, menunjukkan bahwa pasien lansia juga 
+                            masih berisiko terkena diabetes tahap awal. Hal ini mendukung pentingnya skrining rutin untuk semua kelompok umur, termasuk lansia
 
-            Hal ini juga sesuai dengan literatur medis dimana disebutkan bahwa resiko diabetes meningkat seiring bertambahnya usia, terutama jika di atas 40 tahun. 
-            Namun dari data di atas terlihat fakta bahwa ada pasien dengan usia muda, yaitu 16 tahun. Itu menunjukkan bahwa ada faktor resiko lain (seperti genetik dan pola makan) juga berperan dalam munculnya diabetes di usia muda<br><br>
+                    Hal ini juga sesuai dengan literatur medis dimana disebutkan bahwa resiko diabetes meningkat seiring bertambahnya usia, terutama jika di atas 40 tahun. 
+                    Namun dari data di atas terlihat fakta bahwa ada pasien dengan usia muda, yaitu 16 tahun. Itu menunjukkan bahwa ada faktor resiko lain (seperti genetik dan pola makan) juga berperan dalam munculnya diabetes di usia muda<br><br>
 
-            Referensi: <a href="https://www.cdc.gov/diabetes/about/?CDC_AAref_Val=https://www.cdc.gov/diabetes/basics/diabetes.html" target="_blank">CDC - Diabetes Basics</a>
-            </div>
-""", unsafe_allow_html=True)
+                    Referensi: <a href="https://www.cdc.gov/diabetes/about/?CDC_AAref_Val=https://www.cdc.gov/diabetes/basics/diabetes.html" target="_blank">CDC - Diabetes Basics</a>
+                    </div>
+                    """, unsafe_allow_html=True)
 
 
     elif choice == "2. Pengaruh pasien yang positif diabetes dengan penyembuhan luka yang lambat":
@@ -95,12 +95,14 @@ def eda():
 
         st.markdown("## Kesimpulan")
         st.markdown("""
-        Dari diagram di atas bisa diambil kesimpulan bahwa pada diabetes tahap awal, **Delayed Healing bukan satu-satunya faktor untuk melihat bahwa pasien positif diabetes.**  
-Pada tahap awal, **kadar gula darah mungkin belum cukup tinggi untuk memengaruhi regenerasi jaringan secara signifikan.**  
-Gejala ini biasanya lebih jelas pada fase diabetes lanjut karena **kerusakan kapiler darah dan sistem imun yang melemah.**
+                    <div style="text-align: justify;">
+                            Dari diagram di atas bisa diambil kesimpulan bahwa pada diabetes tahap awal, Delayed Healing bukan satu-satunya faktor untuk melihat bahwa pasien positif diabetes.
+                            Pada tahap awal, **kadar gula darah mungkin belum cukup tinggi untuk memengaruhi regenerasi jaringan secara signifikan.
+                            Gejala ini biasanya lebih jelas pada fase diabetes lanjut karena **kerusakan kapiler darah dan sistem imun yang melemah.
 
-Referensi: [Halodoc - Ini Alasan Luka Lebih Susah Sembuh pada Pengidap Diabetes](https://www.halodoc.com/artikel/ini-alasan-luka-lebih-susah-sembuh-pada-pengidap-diabetes)
-        """)
+                            Referensi: [Halodoc - Ini Alasan Luka Lebih Susah Sembuh pada Pengidap Diabetes](https://www.halodoc.com/artikel/ini-alasan-luka-lebih-susah-sembuh-pada-pengidap-diabetes)</a>
+                    </div>
+                    """, unsafe_allow_html=True)
 
     elif choice == "3. Hubungan obesitas dengan positif diabetes":
         st.markdown("## Hubungan Obesitas dengan Diabetes")
