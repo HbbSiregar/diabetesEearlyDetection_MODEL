@@ -131,5 +131,4 @@ File utama: `Deployment/app.py`
 ## Kontributor
 
 **Ma’ruf Habibie Siregar**  
-Fullstack Data Science Student – Hacktiv8  
 GitHub: [github.com/marufhabibie](https://github.com/HbbSiregar)  
